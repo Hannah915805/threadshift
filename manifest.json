@@ -1,0 +1,39 @@
+{
+  "id": "threadshift",
+  "name": "Threadshift",
+  "version": "1.0.0",
+  "description": "A comprehensive transformation and body-mapping system with NPC dialog integration for SillyTavern. Features zone-based transformations, context-aware NPC interactions, and modular story continuation tools.",
+  "entrypoint": "index.js",
+  "author": "Maddie",
+  "minVersion": "1.9.0",
+  "loading_order": 10,
+  "permissions": [
+    "storage",
+    "ui",
+    "chat",
+    "events",
+    "memory",
+    "settings",
+    "network",
+    "lorebook",
+    "llm"
+  ],
+  "dependencies": [],
+  "optional_dependencies": {
+    "memory-toolkit": "Enhanced memory integration",
+    "group-chat-plus": "Advanced multi-character support"
+  },
+  "api_version": "2.0",
+  "category": "roleplay",
+  "tags": ["transformation", "body-mapping", "npc", "dialog", "modular"],
+  "license": "MIT",
+  "keywords": ["sillytavern", "plugin", "transformation", "roleplay", "npc"],
+  "engines": {
+    "sillytavern": ">=1.9.0"
+  },
+  "config": {
+    "settings_panel": true,
+    "auto_enable": false,
+    "requires_restart": false
+  }
+}
